@@ -16,16 +16,14 @@ A Python-based application to manage student report cards efficiently. This syst
 
 ## List of Files
 Student Report Card System/
-│
-├── main.py # Entry point of the application
-├── databaseConnection.py # Manages database connections
-├── studentOperations.py # Functions for managing student details
-├── marksOperations.py # Functions for managing student marks
-├── reportCardOperations.py # Functions for generating report cards
-├── setupDatabase.py # Script to create necessary MySQL tables
-├── utilities.py # Helper functions and utilities
-├── config.py # Configuration for database credentials
-
+- main.py — Entry point of the application
+- databaseConnection.py — Manages database connections
+- studentOperations.py — Functions for managing student details
+- marksOperations.py — Functions for managing student marks
+- reportCardOperations.py — Functions for generating report cards
+- setupDatabase.py — Script to create necessary MySQL tables
+- utilities.py — Helper functions and utilities
+- config.py — Configuration for database credentials
 
 ---
 
