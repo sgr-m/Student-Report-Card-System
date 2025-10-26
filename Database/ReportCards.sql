@@ -29,7 +29,7 @@ CREATE TABLE IF NOT EXISTS ReportCard (
     FOREIGN KEY (StudentID) REFERENCES Students(StudentID)
 );
 
--- Insert students (20 records)
+-- Insert students 
 INSERT INTO Students (Name, Class, Section) VALUES
 ('Ravi Kumar', '12', 'A'),
 ('Priya Sharma', '12', 'B'),
@@ -41,7 +41,7 @@ INSERT INTO Students (Name, Class, Section) VALUES
 ('Nikhil Raj', '12', 'B'),
 ('Deepak Joshi', '12', 'C');
 
--- Insert marks (20 records for each student)
+-- Insert marks 
 INSERT INTO Marks (StudentID, Subject, Marks) VALUES
 (1, 'Physics', 85),(1, 'Chemistry', 88),(1, 'Biology', 78),(1, 'Mathematics', 92),(1, 'English', 89),
 (2, 'Physics', 75),(2, 'Chemistry', 82),(2, 'Biology', 70),(2, 'Mathematics', 80),(2, 'English', 85),
@@ -53,7 +53,7 @@ INSERT INTO Marks (StudentID, Subject, Marks) VALUES
 (8, 'Physics', 84),(8, 'Chemistry', 86),(8, 'Biology', 80),(8, 'Mathematics', 90),(8, 'English', 83),
 (9, 'Physics', 90),(9, 'Chemistry', 82),(9, 'Biology', 78),(9, 'Mathematics', 85),(9, 'English', 87),
 
--- Insert report card (20 records)
+-- Insert report card
 INSERT INTO ReportCard (StudentID, TotalMarks, Percentage) VALUES
 (1, 434, 86.80),
 (2, 402, 80.40),
@@ -64,4 +64,5 @@ INSERT INTO ReportCard (StudentID, TotalMarks, Percentage) VALUES
 (7, 413, 82.60),
 (8, 434, 86.80),
 (9, 423, 84.60),
+
 
