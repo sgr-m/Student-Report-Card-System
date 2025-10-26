@@ -17,7 +17,7 @@ A Python-based application to manage student report cards efficiently. This syst
 
 ## File Structure
 
-Student Report Card System/
+```Student Report Card System/
 ├── main.py → Entry point of the application
 ├── Database/ → Directory containing database-related files
 │   └── setupDatabase.py → Script to create necessary MySQL tables
@@ -28,7 +28,7 @@ Student Report Card System/
 │   └── reportCardOperations.py → Functions for generating report cards
 ├── report_cards.csv → Sample CSV file for report cards
 └── LICENSE → Project license file
-
+```
 ---
 
 ## Prerequisites
